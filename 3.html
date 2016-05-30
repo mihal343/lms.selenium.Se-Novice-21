@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://ec2-52-31-177-160.eu-west-1.compute.amazonaws.com/" />
+<title>задание 1 целиком</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">задание 1 целиком</td></tr>
+</thead><tbody>
+<tr>
+	<td>setSpeed</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=name</td>
+	<td>lms</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=button.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=a.btn.btn-danger.index-delete</td>
+	<td></td>
+</tr>
+<!--/*На высокой скорости никак не хочет работать*/-->
+<tr>
+	<td>setSpeed</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=a.btn.btn-danger.index-delete</td>
+	<td></td>
+</tr>
+<tr>
+	<td>setSpeed</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=h2</td>
+	<td>Are you sure you want to delete?</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=button.confirm</td>
+	<td>Yes, definitely!</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.icon.info</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=button.confirm</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.confirm</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>id=content</td>
+	<td>Panel Coupon Index × Help us to improve! Open eShop it´s an amazing free Open Source Software. With a small donation you are helping us to keep the project alive and updated. Thanks!<br /> Or Buy a Theme <br /> <br /> New Bulk Heads Up! only available with premium themes!<br />Upgrade your Open Classifieds site to activate this feature. Browse Themes <br /> <br /> Search Coupon Read more<br /> <br /> Name Product Discount Number Coupons Valid until Created Actions <br /> <br /> <br /> <br /> Export all Upload CSV file <br /> Please use the correct CSV format <br /> Coupons: download example. <br /> <br /> import coupons <br /> Upload</td>
+</tr>
+<!--/***********************************************************************************************************/-->
+</tbody></table>
+</body>
+</html>
